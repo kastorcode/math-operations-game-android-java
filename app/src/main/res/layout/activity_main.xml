@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/bg_primary"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/scoreWrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:text="@string/score"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/addition"
+            android:layout_width="205dp"
+            android:layout_height="64dp"
+            android:layout_marginBottom="16dp"
+            android:theme="@style/ButtonStyle"
+            android:text="@string/addition" />
+
+        <Button
+            android:id="@+id/division"
+            android:layout_width="205dp"
+            android:layout_height="64dp"
+            android:layout_marginBottom="16dp"
+            android:theme="@style/ButtonStyle"
+            android:text="@string/division" />
+
+        <Button
+            android:id="@+id/multiplication"
+            android:layout_width="205dp"
+            android:layout_height="64dp"
+            android:layout_marginBottom="16dp"
+            android:theme="@style/ButtonStyle"
+            android:text="@string/multiplication" />
+
+        <Button
+            android:id="@+id/subtraction"
+            android:layout_width="205dp"
+            android:layout_height="64dp"
+            android:layout_marginBottom="16dp"
+            android:theme="@style/ButtonStyle"
+            android:text="@string/subtraction" />
+
+        <Button
+            android:id="@+id/kastorcode"
+            android:layout_width="205dp"
+            android:layout_height="64dp"
+            android:theme="@style/ButtonStyle"
+            android:text="&lt;kastor.code/&gt;" />
+
+    </LinearLayout>
+
+</LinearLayout>

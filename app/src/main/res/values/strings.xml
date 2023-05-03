@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Math Operations Game</string>
+    <string name="addition">Addition</string>
+    <string name="answer">Answer</string>
+    <string name="division">Division</string>
+    <string name="gameOver">Game Over</string>
+    <string name="life">Life</string>
+    <string name="multiplication">Multiplication</string>
+    <string name="next">Next</string>
+    <string name="poweredBy">Powered by &lt;kastor.code/&gt;</string>
+    <string name="score">Score</string>
+    <string name="subtraction">Subtraction</string>
+    <string name="time">Time</string>
+</resources>
